@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.point {
+  color: #5a7184;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px 0;
+}
+.head {
+    text-align: center;
+    font-size: 50px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZbIKJrM2x-SSQ6yRby3ZHZRsOmUpePyShxZUGiCizzxI2KCG1YcXbViVR&s=10");
+    background-image: cover;
+    background-clip: text;
+    color: transparent;
+    animation: move 4s infinite;
+    padding: 70px;
+}
+
+@keyframes move {
+    100% {
+        background-position-x: 500px;
+    }
+}
+
+.hmbg {
+    background-image: url('https://img.pikbest.com/wp/202408/texture-canvas-empty-of-ideal-for-design-on-a-dark-background_9946967.jpg!w700wp');
+    height: cover;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: cover;
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 150px;
+    height: 200px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.menhd {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.mgsz {
+    height: 150px;
+    width: 200px;
+}
+
+.hmbgg {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9yYFcS9dMy-g-G5TlCNNsSqji1HZNEnMe6RiRZ44gvEwzMdIHMaNtQUW&s=10');
+    height: cover;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+.hmbggg {
+    background-image: url('https://w0.peakpx.com/wallpaper/509/73/HD-wallpaper-aeroplane-aircraft-airplane-aviation-background-jets-navy-old-plane-planes.jpg');
+    height: cover;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+:root {
+    --lightbox: rgb(0 0 0 / 0.75);
+    --carousel-text: #fff;
+  }
+  
+  body {
+    margin: 1.5rem 0 3.5rem;
+  }
+  
+  @keyframes zoomin {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .gallery-item {
+    display: block;
+  }
+  
+  .gallery-item img {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s;
+  }
+  
+  .gallery-item:hover img {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+  }
+  
+  .lightbox-modal .modal-content {
+    background-color: var(--lightbox);
+  }
+  
+  .lightbox-modal .btn-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    font-size: 1.25rem;
+    z-index: 10;
+    filter: invert(1) grayscale(100);
+  }
+  
+  .lightbox-modal .modal-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .lightbox-modal .lightbox-content {
+    width: 100%;
+  }
+  
+  .lightbox-modal .carousel-indicators {
+    margin-bottom: 0;
+  }
+  
+  .lightbox-modal .carousel-indicators [data-bs-target] {
+    background-color: var(--carousel-text) !important;
+  }
+  
+  .lightbox-modal .carousel-inner {
+    width: 75%;
+  }
+  
+  .lightbox-modal .carousel-inner img {
+    animation: zoomin 10s linear infinite;
+  }
+  
+  .lightbox-modal .carousel-item .carousel-caption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2rem;
+    background-color: var(--lightbox);
+    color: var(--carousel-text) !important;
+  }
+  
+  .lightbox-modal .carousel-control-prev,
+  .lightbox-modal .carousel-control-next {
+    width: auto;
+  }
+  
+  .lightbox-modal .carousel-control-prev {
+    left: 1.25rem;
+  }
+  
+  .lightbox-modal .carousel-control-next {
+    right: 1.25rem;
+  }
+  
+  @media (min-width: 1400px) {
+    .lightbox-modal .carousel-inner {
+      max-width: 60%;
+    }
+  }
+  
+  [data-bs-theme = "dark"] .lightbox-modal .carousel-control-next-icon,
+  [data-bs-theme = "dark"] .lightbox-modal .carousel-control-prev-icon {
+      filter: none;
+  }
+
+/* New CSS for Gallery Image Uniformity */
+.photo-gallery .gallery-grid img {
+    width: 100%;
+    height: 250px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintains aspect ratio while filling container */
+}
